@@ -1,0 +1,77 @@
+h1 {
+	text-align: center;
+}
+
+.welcome {
+	text-align:  center;
+	background: linear-gradient(#33ccff 0%, #ff99cc 100%);
+	background-repeat: no-repeat;
+}
+
+li {
+	display: inline;
+}
+
+p {
+	text-align: left;
+	font-size: 20px;
+}
+
+ol {
+	font-size: 20px;
+	text-align: left;
+}
+
+img {
+	border-radius: 50%;
+	height: 300px;
+	width: 250px;
+}
+
+h1 {
+	text-shadow: 4px 4px #ff1a40;
+	font-size: 30px;
+	font-family: 'pacifico';
+}
+
+.description {
+	padding: 20px;
+	font-size: 18;
+	background-color: pink;
+	text-align: center;
+}
+
+.menu {
+	list-style: none;
+	font-family: cursive;
+	position: absolute;
+	float: right;
+	top: 10px;
+	right: 30px;
+	cursor: pointer;
+	color: black;
+	z-index: 10;
+}
+
+.link {
+	float: left;
+	color: #fff;
+	padding-bottom: 5px;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-top: 5px;
+	font-family: fantasy;
+	font-size: 20px;
+}
+
+.link:hover {
+	background-color: dodgerblue;
+}
+
+.parallax-inner {
+	display: table-cell;
+	
+	position: relative;
+	text-align: center;	
+	vertical-align: middle;
+}
